@@ -1,6 +1,6 @@
-#include <iostream> 
-using namespace std; 
-int main() 
+#include <iostream> //директива препроцессора подключает библиотеку iostream
+using namespace std; //объявление использования std
+int main() //главная функция программы - точка входа
 { 
     int x=3; //инициализация переменной
     cout<< sizeof (int)<<endl; //выводит размер типа int в байтах
