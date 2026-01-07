@@ -2,7 +2,7 @@
 #include <cmath>      //Математические функции
 #include <iomanip>    //Библиотека манипуляторов
 using namespace std;
-
+// Написать программу, которая вычисляет значение выражения sin√(x+1) − sin√(x−1)
 int main()
 {
     double x;  //Входное значение
@@ -16,3 +16,4 @@ int main()
     
     return 0;
 }
+
