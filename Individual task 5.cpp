@@ -1,12 +1,31 @@
 #include <iostream>
 using namespace std;
-//программа выводящая таблицу значений функции y = -x для всех целых чисел x от -10 до 10 (включительно)
-int main()
-{
-    cout << "y = -x\n";
-    for (int x = -10; x <= 10; x++) //цикл x от -10 до 10 с шагом 1
-    {
-        cout << "x = " << x << "\t y = " << -x << endl; //выводим x и y = -x
+
+int main() {
+    
+    double x, y;    // координаты точки
+    double r;       // радиус круга
+    
+    cout << "Введите радиус круга: ";
+    cin >> r;
+    
+    cout << "Введите координаты точки (x y): ";
+    cin >> x >> y;
+    
+    double dist2 = x*x + y*y;
+    double r2 = r*r;
+    
+    if (dist2 < r2) {
+        
+        cout << "Точка лежит внутри" << endl;
+    }
+    else if (dist2 == r2) {
+        
+        cout << "Точка лежит на границе" << endl;
+    }
+    else {
+        
+        cout << "Точка лежит за пределами" << endl;
     }
     return 0;
 }
