@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//программа выводящая таблицу значений функции y = -x для всех целых чисел x от -10 до 10 (включительно)
 int main()
 {
     cout << "y = -x\n";
