@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     
     double x, y;    // координаты точки
     double r;       // радиус круга
@@ -15,15 +16,18 @@ int main() {
     double дист2 = x*x + y*y;
     double r2 = r*r;
     
-    if (дист2 < r2) {
+    if (дист2 < r2) 
+    {
         
         cout << "Точка лежит внутри" << endl;
     }
-    else if (дист2 == r2) {
+    else if (дист2 == r2) 
+    {
         
         cout << "Точка лежит на границе" << endl;
     }
-    else {
+    else 
+    {
         
         cout << "Точка лежит за пределами" << endl;
     }
