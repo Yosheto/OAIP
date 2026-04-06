@@ -12,14 +12,14 @@ int main() {
     cout << "Введите координаты точки (x y): ";
     cin >> x >> y;
     
-    double dist2 = x*x + y*y;
+    double дист2 = x*x + y*y;
     double r2 = r*r;
     
-    if (dist2 < r2) {
+    if (дист2 < r2) {
         
         cout << "Точка лежит внутри" << endl;
     }
-    else if (dist2 == r2) {
+    else if (дист2 == r2) {
         
         cout << "Точка лежит на границе" << endl;
     }
